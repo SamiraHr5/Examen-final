@@ -1,4 +1,4 @@
-import { estudiantes } from "../../db/fakeBiblio";
+import { estudiantes } from "../db/fakeBiblio";
 
 export function verificarEstudiante(username: string, password: string) {
   const estudiante = estudiantes.find(

@@ -3,6 +3,6 @@ import { loginHandler } from "../handlers/biblioteca";
 
 const router = Router();
 
-router.post("/login", loginHandler);
+router.get("/login", loginHandler);
 
 export default router;
